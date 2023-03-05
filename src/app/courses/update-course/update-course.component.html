@@ -1,0 +1,16 @@
+<div class="course-update__wrapper"  *ngIf="course" >
+    <div class="course-update__content">
+            <form [formGroup]="form">
+            <input type="text" placeholder="نام دوره" formControlName="title"/>
+            <select name="" formControlName="level">
+                <option [value]="'BEGINNER'">سطح مقدماتی</option>
+                <option [value]="'ADVANCE'">سطح پیشرفته</option>
+            </select>
+            <textarea placeholder="شرح" rows="5" formControlName="description"></textarea>
+            <div class="course-update__operations">
+                <a class="btn btn-success">ثبت تغییرات</a>
+                <a class="btn" (click)="onCloseDialog()">انصراف</a>
+            </div>
+        </form>
+    </div>
+</div>

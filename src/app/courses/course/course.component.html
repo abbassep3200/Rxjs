@@ -1,0 +1,13 @@
+<div class="course__wrapper">
+    <div class="course">
+        <img class="course__image" [src]="'../../assets/images/' + course.imageUrl"/>
+        <div class="course__title">
+            <a  [routerLink]="['/courses', course.id]">{{course.title}}</a>
+            <p class="course__description">{{course.description}}</p>
+        </div>
+    </div>
+        <input type="search" placeholder="جستجوی دروس ..."/>
+        <!-- <div class="lessons">
+            <div class="lesson">مقدمه ای بر استفاده از توابع در سیستم</div>
+        </div> -->
+</div>

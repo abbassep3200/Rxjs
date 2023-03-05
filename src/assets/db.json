@@ -1,0 +1,77 @@
+{
+    "courses": [
+        {
+            "id": 1,
+            "title": "آموزش مقدماتی انگولار",
+            "description": "در این دوره با مفاهیم اساسی انگولار آشنا می شوید. این دوره کوتاه با معرفی انگولار به عنوان یکی از برترین فریم ورک های جاوااسکریپت آغاز شده و ...",
+            "level": "BEGINNER",
+            "imageUrl": "angluar_basic.png"
+        },
+        {
+            "id": 2,
+            "title": "آموزش مقدماتی جاوااسکریپت",
+            "description": "جاوا اسکریپت به عنوان زابن وب شناخته می شود در این دوره به معرفی اجمالی جاوااسکریپت خواهیم پرداخت و ...",
+            "level": "BEGINNER",
+            "imageUrl": "javascript_basic.png"
+        },
+        {
+            "id": 3,
+            "title": "مقدمه بر css",
+            "description": "طراحی صفحات وب بدون آشنایی با css امکان پذیر نیست. در این دوره اصول اساسی css را معرفی می کنیم و ...",
+            "level": "BEGINNER",
+            "imageUrl": "css_basic.png"
+        },
+        {
+            "id": 4,
+            "title": "مقدمه ای بر مفاهیم شی گرایی",
+            "description": "در این دوره به معرفی ستون های طراحی شی گرایی با استفاده از زبان سی شارپ خواهیم پرداخت و ...",
+            "level": "BEGINNER",
+            "imageUrl": "object_basic.jpg"
+        },
+        {
+            "id": 5,
+            "title": "آموزش مقدماتی سی شارپ",
+            "description": "در این دوره با عناصر اساسی زبان سی شار| به عنوان یک زبان برنامه نویسی تجاری آشنا می شویم و ...",
+            "level": "BEGINNER",
+            "imageUrl": "csharp_basic.jpg"
+        },
+        {
+            "id": 6,
+            "title": "سی شارپ 10",
+            "description": "در این دوره کوتاه به معرفی ویژگی های جدید زبان سی شارپ خواهیم پرداخت و خواهیم دید که ...",
+            "level": "ADVANCE",
+            "imageUrl": "csharp_advance.png"
+        },
+        {
+            "id": 7,
+            "title": "مباحث پیشرفته css",
+            "description": "در این دوره با طراحی یک وب سایت به مفاهیم پیشرفته css مانند چینش آبشاری، ارث بری عناصر و ...",
+            "level": "ADVANCE",
+            "imageUrl": "css_advance.jpg"
+        },
+        {
+            "id": 8,
+            "title": "آموزش Rxjs",
+            "description": "در این دوره مفهوم مهم reactive programming را با پیاده سازی یک وب اپلیکیشن در محیط انگولار ...",
+            "level": "ADVANCE",
+            "imageUrl": "rxjs_advance.jpg"
+        },
+        {
+            "id": 9,
+            "title": "آموزش Redux",
+            "description": "در این دوره به معرفی Redux به عنوان مدلی برای نگه داری state اپلیکیشن خواهیم پرداخت و خواهیم دید ...",
+            "level": "ADVANCE",
+            "imageUrl": "redux.jpg"
+        },
+        {
+            "id": 10,
+            "title": "آموزش پیشرفته انگولار",
+            "description": "در این دوره به معرفی ویژگی هایی مانند change detetion و Angular Universal خواهیم پرداخت و ...",
+            "level": "ADVANCE",
+            "imageUrl": "angular_advance.jpeg"
+        }
+    ],
+    "lessons": [
+        
+    ]
+}

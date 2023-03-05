@@ -1,0 +1,33 @@
+<div class="course__wrapper">
+    <div class="course__tab">
+        <a class="btn" [ngClass]="{'btn-active': selectedTab ==='beginners'}" (click)="selectedTab = 'beginners'">دوره های مقدماتی</a>
+        <a class="btn" [ngClass]="{'btn-active': selectedTab ==='advances'}" (click)="selectedTab = 'advances'">دوره های پیشرفته</a>
+    </div>
+    <div [hidden]="selectedTab !== 'beginners'">
+<div class="course"  *ngFor="let course of beginnerCourses$ | async">
+    <img class="course__image" [src]="'../../assets/images/' + course.imageUrl"/>
+    <div class="course__title">
+        <a  [routerLink]="['/courses', course.id]">{{course.title}}</a>
+        <p class="course__description">{{course.description}}</p>
+    </div>
+    <div>
+        <a class="btn btn-success" (click)="onUpdateCourse(course)">ویرایش</a>
+    </div>
+</div>
+</div>
+
+<div  [hidden]="selectedTab !== 'advances'">
+    <div class="course"  *ngFor="let course of advanceCourses$ | async" >
+        <img class="course__image" [src]="'../../assets/images/' + course.imageUrl"/>
+        <div class="course__title">
+            <a  [routerLink]="['/courses', course.id]">{{course.title}}</a>
+            <p class="course__description">{{course.description}}</p>
+        </div>
+        <div>
+            <a class="btn btn-success" (click)="onUpdateCourse(course)">ویرایش</a>
+        </div>
+    </div>
+</div>
+</div>
+
+<app-update-course *ngIf="selectedCourse" [course]="selectedCourse" (closeDialog)="selectedCourse = undefined"></app-update-course>
